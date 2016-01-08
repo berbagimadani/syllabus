@@ -56,7 +56,7 @@
   <section>
     <div class="container">
       <div class="col-md-6">
-        HOME
+        &nbsp;
       </div>
       <div class="col-md-6">..</div>
 

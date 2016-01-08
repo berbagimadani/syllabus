@@ -9,3 +9,28 @@ body{
 	text-align: right;
 	padding-right: 40px;
 }
+
+/*=== Headings ===*/
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Nunito-Light', Helvetica, Arial, Sans-Serif;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #303030;
+	margin-bottom: 10px;
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('fonts/Nunito-Regular.ttf'); /* IE9 Compat Modes */
+  src: url('fonts/Nunito-Regular.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Nunito-Regular.ttf') format('woff'), /* Modern Browsers */
+       url('fonts/Nunito-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Nunito-Regular.ttf') format('svg'); /* Legacy iOS */
+} 
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url('fonts/Nunito-Light.ttf'); /* IE9 Compat Modes */
+  src: url('fonts/Nunito-Light.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Nunito-Light.ttf') format('woff'), /* Modern Browsers */
+       url('fonts/Nunito-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Nunito-Light.ttf') format('svg'); /* Legacy iOS */
