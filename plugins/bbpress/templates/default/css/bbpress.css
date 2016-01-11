@@ -83,7 +83,7 @@ body.reply-edit .reply {
 #bbpress-forums ul.bbp-search-results {
 	font-size: 12px;
 	overflow: hidden;
-	border: 1px solid #eee;
+	/* border: 1px solid #eee; */
 	margin-bottom: 20px;
 	clear: both;
 }
@@ -97,16 +97,16 @@ body.reply-edit .reply {
 #bbpress-forums li.bbp-header,
 #bbpress-forums li.bbp-footer {
 	background: #fff;
-	border-top: 1px solid #eee;
+	/* border-top: 1px solid #eee; */
 	font-weight: bold;
 	padding: 8px;
 	text-align: center;
 	font-size:18px;
-	color:#3A773B
+	color: #fff;
 }
 
 #bbpress-forums li.bbp-header {
-	background: #fff;
+	background: #3A773B;
 }
 
 #bbpress-forums li.bbp-header ul {
@@ -1346,6 +1346,13 @@ body.my-account #bbpress-forums {
 /* CUSTOME */
 /*=== Headings ===.*/
 
+li.bbp-forum-freshness a, .bbp-topic-freshness a{
+	color: #3A773B;
+}
+li.bbp-forum-freshness a:hover, .bbp-topic-freshness a:hover{
+	color: #3A773B;
+}
+
 li.bbp-topic-title a{
 	font-size:14px;
 	color: #000;
@@ -1364,6 +1371,7 @@ ul li, a{
 .bbp-forum-title{
 	font-size: 15px;
 	color: #000;
+	font-weight: bold;
 }
 @font-face {
   font-family: 'Nunito-Regular';

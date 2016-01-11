@@ -166,6 +166,7 @@ function forumthemesfroyo_scripts() {
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'forumthemesfroyo-bootstrap.min.css', get_template_directory_uri() . '/css/bootstrap.min.css', null, '20141010' );
  	wp_enqueue_style( 'forumthemesfroyo-style-custome', get_template_directory_uri() . '/css/style.css', null, '20141010' );
+ 	wp_enqueue_style( 'forumthemesfroyo-style-font', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css', null, '20141010' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
