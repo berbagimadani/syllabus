@@ -29,6 +29,7 @@
 
 	<div id="new-topic-<?php bbp_topic_id(); ?>" class="bbp-topic-form">
 
+		<?php if ( current_user_can( 'moderate' ) ) : ?> <!-- user not create reply  -->
 		<form id="new-post" name="new-post" method="post" action="<?php the_permalink(); ?>">
 
 			<?php do_action( 'bbp_theme_before_topic_form' ); ?>
@@ -217,6 +218,8 @@
 			<?php do_action( 'bbp_theme_after_topic_form' ); ?>
 
 		</form>
+		<?php endif; ?> <!-- //user not create reply  -->
+
 	</div>
 
 <?php elseif ( bbp_is_forum_closed() ) : ?>

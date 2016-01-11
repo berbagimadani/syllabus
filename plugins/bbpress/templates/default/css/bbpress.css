@@ -480,7 +480,7 @@ td.bbp-topic-counts {
 .bbp-reply-header a.bbp-reply-permalink {
 	float: right;
 	margin-left: 10px;
-	color: #ccc;
+	color: #000;
 }
 
 /* =Toggles
