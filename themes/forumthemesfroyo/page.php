@@ -17,6 +17,24 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php
+		if ( get_the_title() == 'Forums') {
+			
+			while ( have_posts() ) : the_post();
+
+			// Include the page content template.
+			get_template_part( 'content', 'forum' );
+
+			// If comments are open or we have at least one comment, load up the comment template.
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
+
+			// End the loop.
+			endwhile;
+
+		}   
+
+		if ( get_the_title() != 'Forums') {
 		// Start the loop.
 		while ( have_posts() ) : the_post();
 
@@ -29,7 +47,8 @@ get_header(); ?>
 			endif;
 
 		// End the loop.
-		endwhile;
+		endwhile; 
+		}
 		?>
 
 		</main><!-- .site-main -->
