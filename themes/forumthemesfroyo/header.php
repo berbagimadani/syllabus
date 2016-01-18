@@ -46,8 +46,8 @@
   <!-- MENU AND LOGO -->
   <div class="container">
     <div class="col-md-12">
-      <div class="col-md-6"><img src="http://www.maketheworldcyou.com/wp-content/uploads/2015/03/logo_new.png"></div>
-      <div class="col-md-6">xx</div>
+      <!--<div class="col-md-6"><img src="http://www.maketheworldcyou.com/wp-content/uploads/2015/03/logo_new.png"></div>
+      <div class="col-md-6">xx</div>-->
     </div>
   </div>
   <!-- / MENU AND LOGO  -->
@@ -58,7 +58,7 @@
       <div class="col-md-6">
         &nbsp;
       </div>
-      <div class="col-md-6">..</div>
+      <div class="col-md-6"></div>
 
       <div class="col-md-12">
         

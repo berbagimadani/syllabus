@@ -30,6 +30,6 @@ function bbpressLoginRegisterLinksOnForumPage()
 }
 add_action('bbp_template_after_forums_loop','bbpressLoginRegisterLinksOnForumPage'); 
 add_action('bbp_template_before_pagination_loop','bbpressLoginRegisterLinksOnForumPage'); 
-add_action('bbp_template_after_single_forum','bbpressLoginRegisterLinksOnForumPage'); 
-add_action('bbp_template_before_forums_loop','bbpressLoginRegisterLinksOnForumPage'); 
+//add_action('bbp_template_after_single_forum','bbpressLoginRegisterLinksOnForumPage'); 
+//add_action('bbp_template_before_forums_loop','bbpressLoginRegisterLinksOnForumPage'); 
 ?>
