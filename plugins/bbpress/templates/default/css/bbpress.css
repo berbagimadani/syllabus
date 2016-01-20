@@ -71,7 +71,7 @@ body.reply-edit .reply {
 	background: #fff;
 }
 #bbpress-forums ul.bbp-threaded-replies li {
-border-left:10px solid #ccc
+border-left:5px solid #ccc
 }
 
 #bbpress-forums li {
@@ -103,7 +103,7 @@ border-left:10px solid #ccc
 	background: #fff;
 	/* border-top: 1px solid #eee; */
 	font-weight: bold;
-	padding: 8px;
+	padding: 10px;
 	text-align: center;
 	font-size:18px;
 	color: #fff;
@@ -146,7 +146,7 @@ li.bbp-topic-reply-count {
 	float: left;
 	text-align: center;
 	width: 10%;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 li.bbp-forum-freshness,
@@ -1358,17 +1358,27 @@ body.my-account #bbpress-forums {
 }
 
 /* CUSTOME */
+
+.entry-content a,
+.entry-summary a,
+.page-content a,
+.comment-content a,
+.pingback .comment-body > a {
+	border: none;
+	border-bottom: 0px solid #333;
+}
+
 /*=== Headings ===.*/
 input[type="text"] {
-    height: 31px;  
+	padding: 8px; 
     margin: 8px 0 10px;
 }
-input[type="submit"] {
-    height: 31px; 
+input[type="submit"] {  
     background: #F3C015;
     border: none;
     color: #fff;
     font-weight: bold;
+    padding: 10px;
 }
 
 .bbp-pagination-count, .bbp-topic-description, .bbp-template-notice{
@@ -1409,6 +1419,7 @@ ul li, a{
 	font-size: 15px;
 	color: #000;
 	font-weight: bold;
+	text-decoration: none;
 }
 .bbp-topic-started-by a.bbp-author-name{
 	font-size: 10px;

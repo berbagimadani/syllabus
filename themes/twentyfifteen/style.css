@@ -1735,7 +1735,7 @@ a.post-thumbnail:focus {
 .page-content a,
 .comment-content a,
 .pingback .comment-body > a {
-	border-bottom: 1px solid #333;
+	border-bottom: 0px solid #333;
 }
 
 .entry-content a:hover,

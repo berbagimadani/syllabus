@@ -17,6 +17,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php
+		/* validasi untuk halaman forum */
 		if ( get_the_title() == 'Forums') {
 			
 			while ( have_posts() ) : the_post();
@@ -33,7 +34,8 @@ get_header(); ?>
 			endwhile;
 
 		}   
-
+ 	
+ 		/* validasi untuk halaman yang bukan forum */
 		if ( get_the_title() != 'Forums') {
 		// Start the loop.
 		while ( have_posts() ) : the_post();
