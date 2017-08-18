@@ -1,0 +1,22 @@
+# Base URL of the published website
+baseUrl: https://berbagimadani.github.io/syllabus/
+
+# Used to link to the GitHub project
+github:
+    user: berbagimadani
+    repo: syllabus
+
+title: Syllabus Web Developer - Applications - PHP Developer
+subTitle: This is a great project.
+
+# The left menu bar
+menu:
+    items:
+        home:
+            text: Home page
+            # You can use relative urls
+            relativeUrl: doc/faq.html
+        foo:
+            text: Another link
+            # Or absolute urls
+            absoluteUrl: https://example.com
